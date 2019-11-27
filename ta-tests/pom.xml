@@ -22,57 +22,5 @@
             <artifactId>ta-frontend</artifactId>
             <version>${project.version}</version>
         </dependency>
-
     </dependencies>
-    <build>
-        <finalName>test-automation</finalName>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-shade-plugin</artifactId>
-                <version>3.1.0</version>
-                <configuration>
-                    <filters>
-                        <filter>
-                            <artifact>*:*</artifact>
-                            <excludes>
-                                <exclude>META-INF/*.SF</exclude>
-                                <exclude>META-INF/*.DSA</exclude>
-                                <exclude>META-INF/*.RSA</exclude>
-                            </excludes>
-                        </filter>
-                    </filters>
-                </configuration>
-                <executions>
-                    <execution>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>shade</goal>
-                        </goals>
-                        <configuration>
-                            <transformers>
-                                <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
-                                    <resource>META-INF/cxf/bus-extensions.txt</resource>
-                                </transformer>
-                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>com.testvagrant.tatests.main.RunTestCases</mainClass>
-                                </transformer>
-                            </transformers>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-
-    </build>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <version.org.jboss.arquillian>1.1.11.Final</version.org.jboss.arquillian>
-        <version.org.jboss.arquillian.drone>2.0.0.Final</version.org.jboss.arquillian.drone>
-        <version.org.jboss.arquillian.graphene>2.1.0.CR2</version.org.jboss.arquillian.graphene>
-        <version.screenshooter>2.1.0.CR1</version.screenshooter>
-    </properties>
-
-
 </project>
