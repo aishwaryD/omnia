@@ -1,4 +1,4 @@
-package com.testvagrant.web.testchannel;
+package com.testvagrant.ui.testchannel;
 
 import org.openqa.selenium.WebElement;
 import java.util.List;

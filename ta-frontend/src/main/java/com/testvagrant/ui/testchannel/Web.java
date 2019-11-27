@@ -1,9 +1,9 @@
-package com.testvagrant.web.testchannel;
+package com.testvagrant.ui.testchannel;
 
 import com.testvagrant.core.*;
 import com.testvagrant.model.Enums;
 import com.testvagrant.util.*;
-import com.testvagrant.web.core.Driver;
+import com.testvagrant.ui.core.Driver;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.UnreachableBrowserException;

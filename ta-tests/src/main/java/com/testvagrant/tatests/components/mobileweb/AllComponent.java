@@ -4,7 +4,7 @@ import static com.testvagrant.core.BaseContext.getPlatform;
 import com.testvagrant.model.Enums;
 import com.testvagrant.tatests.components.model.mobileweb.IDashboard;
 import com.testvagrant.tatests.utils.CommonComponent;
-import com.testvagrant.web.core.Driver;
+import com.testvagrant.ui.core.Driver;
 import org.openqa.selenium.support.PageFactory;
 import java.util.ArrayList;
 import java.util.List;

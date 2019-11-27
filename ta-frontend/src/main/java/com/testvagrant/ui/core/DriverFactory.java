@@ -1,4 +1,4 @@
-package com.testvagrant.web.core;
+package com.testvagrant.ui.core;
 
 import com.testvagrant.core.*;
 import com.testvagrant.util.*;

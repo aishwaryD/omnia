@@ -1,4 +1,4 @@
-package com.testvagrant.web.testchannel;
+package com.testvagrant.ui.testchannel;
 
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.WebDriver;

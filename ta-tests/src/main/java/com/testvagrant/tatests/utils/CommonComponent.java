@@ -2,7 +2,7 @@ package com.testvagrant.tatests.utils;
 
 import com.testvagrant.tatests.components.WebBaseComponent;
 import org.openqa.selenium.WebDriver;
-import com.testvagrant.web.core.Driver;
+import com.testvagrant.ui.core.Driver;
 import com.testvagrant.core.BaseContext;
 import static com.testvagrant.model.Enums.*;
 

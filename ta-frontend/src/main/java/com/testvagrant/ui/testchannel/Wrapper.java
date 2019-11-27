@@ -1,4 +1,4 @@
-package com.testvagrant.web.testchannel;
+package com.testvagrant.ui.testchannel;
 
 import com.testvagrant.core.*;
 import com.testvagrant.util.Util;

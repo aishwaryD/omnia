@@ -66,9 +66,6 @@
 
     </build>
 
-
-
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <version.org.jboss.arquillian>1.1.11.Final</version.org.jboss.arquillian>
@@ -76,11 +73,6 @@
         <version.org.jboss.arquillian.graphene>2.1.0.CR2</version.org.jboss.arquillian.graphene>
         <version.screenshooter>2.1.0.CR1</version.screenshooter>
     </properties>
-
-
-    
-
-
 
 
 </project>

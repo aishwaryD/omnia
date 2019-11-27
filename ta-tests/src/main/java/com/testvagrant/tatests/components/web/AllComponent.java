@@ -3,7 +3,7 @@ package com.testvagrant.tatests.components.web;
 import com.testvagrant.core.BaseContext;
 import com.testvagrant.tatests.components.model.*;
 import com.testvagrant.tatests.utils.CommonComponent;
-import com.testvagrant.web.core.Driver;
+import com.testvagrant.ui.core.Driver;
 import org.openqa.selenium.support.PageFactory;
 
 import java.util.ArrayList;

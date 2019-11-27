@@ -1,6 +1,6 @@
 package com.testvagrant.tatests.components;
 
-import com.testvagrant.web.testchannel.Wrapper;
+import com.testvagrant.ui.testchannel.Wrapper;
 import org.openqa.selenium.WebDriver;
 
 /**

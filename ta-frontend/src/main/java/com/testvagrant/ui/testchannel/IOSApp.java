@@ -1,14 +1,14 @@
-package com.testvagrant.web.testchannel;
+package com.testvagrant.ui.testchannel;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import io.appium.java_client.AppiumDriver;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
-public class AndroidApp extends CommonChannel implements ITool {
+public class IOSApp extends CommonChannel implements ITool {
 
     private AppiumDriver<WebElement> driver = null;
-    public AndroidApp(WebDriver driver)
+    public IOSApp(WebDriver driver)
     {
         super(driver);
         this.driver = (AppiumDriver<WebElement>)driver;
@@ -144,5 +144,4 @@ public class AndroidApp extends CommonChannel implements ITool {
     {
         throw new NotImplementedException();
     }
-
 }

@@ -1,4 +1,4 @@
-package com.testvagrant.web.model;
+package com.testvagrant.ui.model;
 
 
 /**
