@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="DesktopWebRegressionSuite" thread-count="3" parallel="methods">
+
+    <listeners>
+        <listener class-name="org.testng.reporters.jq.Main"/>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+        <listener class-name="com.testvagrant.web.core.SuiteInitializer" />
+        <listener class-name="com.testvagrant.web.core.TestInitializer" />
+    </listeners>
+
+    <test name="DesktopWebRegressionTest">
+
+        <groups>
+            <run>
+                <include name="DesktopWebRegression" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.testvagrant.tatests.tests.webtest.BootCamp.Trello.P1.TrelloAppSwitchContextTest" >
+<!--                <methods>-->
+<!--                    <include name="DT_Move_Cards_In_Trello_Switch_Context"/>-->
+<!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>

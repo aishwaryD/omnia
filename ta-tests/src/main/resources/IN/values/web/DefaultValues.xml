@@ -1,0 +1,17 @@
+<values>
+    <value id="application" defaultvalue="none" type="fromvaluegroup" >
+        <group id="trello">
+            <groupvalue id="email" defaultvalue="random" type="fromvalueset" valueset="aishchess@gmail.com"/>
+            <groupvalue id="password" defaultvalue="chessis123!" asstring="true"/>
+            <groupvalue id="board" defaultvalue="TestVagrantSprint_1.0_" asstring="true"/>
+            <groupvalue id="invalidPasswordRangeVal" defaultvalue="random" type="fromrange" range="550000-990000" asstring="true"/>
+            <groupvalue id="invalidPasswordString" defaultvalue="random" type="ALPHABETS" length="7" asstring="true"/>
+            <groupvalue id="incorrectPasswordAlphaNum" defaultvalue="random" type="ALPHANUMERIC" length="8" asstring="true"/>
+            <groupvalue id="invalidPasswordNumeric" defaultvalue="random" type="NUMERIC" length="7" asstring="true"/>
+        </group>
+    </value>
+</values>
+
+
+
+
