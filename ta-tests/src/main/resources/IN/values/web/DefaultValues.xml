@@ -1,8 +1,8 @@
 <values>
+    <value id="email" defaultvalue="random" type="fromvalueset" valueset="aishchess@gmail.com"/>
+    <value id="password" defaultvalue="chessis123!" asstring="true"/>
     <value id="application" defaultvalue="none" type="fromvaluegroup" >
         <group id="trello">
-            <groupvalue id="email" defaultvalue="random" type="fromvalueset" valueset="aishchess@gmail.com"/>
-            <groupvalue id="password" defaultvalue="chessis123!" asstring="true"/>
             <groupvalue id="board" defaultvalue="TestVagrantSprint_1.0_" asstring="true"/>
             <groupvalue id="invalidPasswordRangeVal" defaultvalue="random" type="fromrange" range="550000-990000" asstring="true"/>
             <groupvalue id="invalidPasswordString" defaultvalue="random" type="ALPHABETS" length="7" asstring="true"/>

@@ -71,7 +71,7 @@ public class ResourceValueParser
 
     private static void fillContextValuesIntoValues(Map<String, String> values)
     {
-        values.put("xEnvironmentName", BaseContext.getEnvironmentName());
+        values.put("EnvironmentName", BaseContext.getEnvironmentName());
         values.put("EnvironmentURL", BaseContext.getEnvironmentURL());
     }
 
