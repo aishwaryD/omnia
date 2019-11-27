@@ -26,14 +26,20 @@ public class TrelloAppSwitchContextTest extends WebBaseTest
         Map<String, String> defaultValues = ResourceValueParser.getAllValues(getValuePath());
         ResourceValueParser.setValueToParticularGroup(getValuePath(), defaultValues, "application", "trello");
         defaultValues.put(Constants.board, "TestVagrantSprint_1.0_" + RandomDataGenerator.generateData(7, "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_"));
+
+        // Create a trello board and tasks in desktop web
         start(client()).forTrelloAndLoginUsingCredentialsStoredIn(defaultValues);
         let(client()).openPersonalBoard(defaultValues.get(Constants.board));
         and(client()).updateTasksInTrello("To Do", "Task 2", "Doing");
         then(client()).verifyUpdatedTask("Doing", "Task 2");
+
+        // Switch to android real device and verify
         let(client()).switchFromDesktopToApp();
         start(client()).forTrelloAndLoginUsingCredentialsStoredIn(defaultValues);
         let(client()).openPersonalBoard(defaultValues.get(Constants.board));
         then(client()).verifyUpdatedTask("Doing", "Task 2");
+
+        // Switch back to desktop web and verify
         let(client()).switchFromAppToDesktop();
         start(client()).forTrelloAndLoginUsingCredentialsStoredIn(defaultValues);
         let(client()).openPersonalBoard(defaultValues.get(Constants.board));
