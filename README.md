@@ -9,8 +9,8 @@ To design a cross platform test automation framework which empowers individual t
 Solution :
 ==========
 
-The solution leverages selenium and appium to interact with desktopn browser and mobile revices respectivly.
-This enables framework consumer to author scenarios which span multiple platforms/devices
+The solution leverages selenium and appium to interact with desktop browser and mobile devices respectively.
+This enables framework consumer to author scenarios which span multiple platforms/devices.
 
 Project Details:
 ================
@@ -25,4 +25,4 @@ Project Structure:
 This project is divided into 3 modules:
 1. ta-core - This contains all the core classes, models and utils for managing test initialization, logging, validation, test data etc.
 2. ta-frontend -  This contains all the drivers(Selenium & Appium) & corresponding usability implementations for various user interactions.
-3. ta-tests -  This contains the actual tests
+3. ta-tests -  This contains the actual tests.
