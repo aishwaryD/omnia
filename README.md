@@ -26,3 +26,7 @@ This project is divided into 3 modules:
 1. ta-core - This contains all the core classes, models and utils for managing test initialization, logging, validation, test data etc.
 2. ta-frontend -  This contains all the drivers(Selenium & Appium) & corresponding usability implementations for various user interactions.
 3. ta-tests -  This contains the actual tests.
+
+Upcoming new features/modules:
+===================
+ta-visual - This custom model will have all the proprietary capabilities of Applitools!
