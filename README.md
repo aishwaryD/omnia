@@ -1,5 +1,5 @@
-# Omnia
-Test framework to support automation of scenarios spanning multiple platforms
+# Omnia:
+A sample test framework to support the automation of scenarios spanning multiple platforms
 
 Update:
 ==================
